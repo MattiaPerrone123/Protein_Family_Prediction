@@ -7,13 +7,17 @@ The project code is available in the file Protein_Family_Prediction.ipynb
 A list of the packages used for this project is included in the file Requirements.txt
 
 ## Dataset
-Two public datasets from the Protein Data Bank are used for this project (see the folder Dataset). One of the two datasets (pdb_data_no_dups.csv) includes different protein biological properties as features (part 2), while the other one (pdb_data_sequences.csv) includes the sequence of aminoacids that make up proteins (part 1).
+Two public datasets from the Protein Data Bank are used for this project (see the folder Dataset). One of the two datasets (pdb_data_no_dups.csv) includes different protein biological properties as features (part 2), while the other one (pdb_data_seq.csv) includes the sequence of aminoacids that make up proteins (part 1).
 
-## Models -> ASPETTO A VEDERE QUANTO CI IMPIEGO A CARICARLI SUL CLOUD
-All the models implemented were saved in the folder Models. These models include linear regression models (Vanilla, Ridge, Lasso) and ensemble models (Bagging, Random Forest, XGBoost). The Model folder also includes a Random Forest Classifier (RFC) trained on the dataset before exploratory data analysis was conducted, in order to show the impact of EDA on the results obtained.
+## Images
+This folder includes all the images that are given in output when the colab notebook is run. 
 
-## Results -> ANCHE QUI LI FAREI ALLA FINE
-EDA has significally improved the performances of the models (Random Forest MSE on the test set dimished by 12%).
-Ensemble models showed much better performances with respect to linear regression. The best ensemble model (XGBoost) allowed to reduce MSE on the test set up to 31% with respect to the best regression model (Ridge).
+## Models
+All the four classification machine learning models implemented were saved in the folder Models (ML_models.zip). These models include Knn, Decision Trees, Bagging and XGBoost. The LSTM model has not been saved in the folder Models because of its size. 
+
+## Results 
+The LSTM model performed better than the best machine learning classification model (XGBoost), with an increase of F1-score from 0.66 to 0.75 on the test set.
 
 A complete report of the project is presented in the file Protein Family Prediction using Classical Machine Learning and Deep Learning.pdf
+
+SAREBBE BELLO METTERE NEL README IMMAGINE FINALE CON TUTTI E 5 I MODELLI (QUINDI CON ANCHE LSTM) NELLA VERSIONE "COLONNA"
