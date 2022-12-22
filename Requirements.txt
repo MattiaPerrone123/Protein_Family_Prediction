@@ -7,7 +7,8 @@ seaborn==0.11.2
 scikit-learn==1.0.2
 xgboost==0.90
 
-The package keras-tuner (Version 1.1.3) has been used to perform hyperparameter tuning in the first part of the project. 
-*'ciao'
 
-aaa
+The package keras-tuner (Version 1.1.3) has been used to perform hyperparameter tuning in the first part of the project. To install this package using pip, pleas refer to the following line of code:
+
+!pip install -q -U keras-tuner
+
