@@ -6,18 +6,14 @@ The project code is available in the file Protein_Family_Prediction.ipynb
 ## Dependencies
 A list of the packages used for this project is included in the file Requirements.txt
 
-
-
-
-
 ## Dataset
-The dataset used (Life_Expectancy_Data.csv) is a public dataset made available by the World Health Organization (WHO) for the purpose of health data analysis. 21 predictor variables for 193 countries from year 2000 to 2015 were considered to predict life expectancy. A description of the dataset features is included in the file Dataset_description.txt
+Two public datasets from the Protein Data Bank are used for this project (see the folder Dataset). One of the two datasets (METTERE NOME.csv) includes different protein biological properties as features (part 2), while the other one (METTERE NOME.csv) includes the sequence of aminoacids that make up proteins (part 1).
 
-## Models
+## Models -> ASPETTO A VEDERE QUANTO CI IMPIEGO A CARICARLI SUL CLOUD
 All the models implemented were saved in the folder Models. These models include linear regression models (Vanilla, Ridge, Lasso) and ensemble models (Bagging, Random Forest, XGBoost). The Model folder also includes a Random Forest Classifier (RFC) trained on the dataset before exploratory data analysis was conducted, in order to show the impact of EDA on the results obtained.
 
-## Results
+## Results -> ANCHE QUI LI FAREI ALLA FINE
 EDA has significally improved the performances of the models (Random Forest MSE on the test set dimished by 12%).
 Ensemble models showed much better performances with respect to linear regression. The best ensemble model (XGBoost) allowed to reduce MSE on the test set up to 31% with respect to the best regression model (Ridge).
 
-A more detailed description of the project is presented in the file Life_Expectancy_Slides.pdf
+A complete report of the project is presented in the file Protein Family Prediction using Classical Machine Learning and Deep Learning.pdf
