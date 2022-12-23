@@ -22,4 +22,9 @@ The LSTM model performed better than the best machine learning classification mo
 ![Score_test_set_all_models](https://user-images.githubusercontent.com/98240588/209311410-da40a208-49ba-43b2-a741-c897dc3a183c.png)
 
 
-A complete report of the project is presented in the file Protein Family Prediction using Classical Machine Learning and Deep Learning.pdf
+<p align="center">
+  <img src=https://user-images.githubusercontent.com/98240588/209311410-da40a208-49ba-43b2-a741-c897dc3a183c.png>
+</p>
+
+
+A complete report of the project is presented in the file Protein_Family_Prediction_using_Classical_Machine_Learning_and_Deep_Learning.pdf
