@@ -18,6 +18,4 @@ All the four classification machine learning models implemented were saved in th
 ## Results 
 The LSTM model performed better than the best machine learning classification model (XGBoost), with an increase of F1-score from 0.66 to 0.75 on the test set.
 
-A complete report of the project is presented in the file Protein Family Prediction using Classical Machine Learning and Deep Learning.pdf
-
-SAREBBE BELLO METTERE NEL README IMMAGINE FINALE CON TUTTI E 5 I MODELLI (QUINDI CON ANCHE LSTM) NELLA VERSIONE "COLONNA"
+A complete report of the project is presented in the file Protein_Family_Prediction_using_Classical_Machine_Learning_and_Deep_Learning.pdf
