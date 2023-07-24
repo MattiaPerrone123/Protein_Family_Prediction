@@ -23,3 +23,6 @@ The LSTM model performed better than the best machine learning classification mo
 </p>
 
 A complete report of the project is presented in the file Protein_Family_Prediction_using_Classical_Machine_Learning_and_Deep_Learning.pdf
+
+## Deployment
+The LSTM model has been deployed using AWS. A customized lambda function (see lambda.py) has been used to handle incoming requests. To enable interactions with the deployed model, a REST API has been created.
